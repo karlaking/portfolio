@@ -34,6 +34,7 @@ h6 {
     text-transform: uppercase;
     font-family: "Exo";
     font-weight: 900;
+    background-color: rgba(0, 0, 0, 0.6)
 }
 
 
@@ -97,12 +98,12 @@ header img {
 
 
 header .intro-text .name {
-    /*display: block;*/
+    display: block;
     text-transform: uppercase;
     font-family: "Exo";
-    /*font-size: 700px;*/
-    /*font-weight: 800;*/
-    color: black;
+    font-size: 80px;
+    font-weight: 800;
+    color: white;
 }
 
 header .intro-text .skills {
@@ -188,6 +189,7 @@ section h2 {
 
 section.success {
     color: #fff;
+
 }
 
 section.success a,
