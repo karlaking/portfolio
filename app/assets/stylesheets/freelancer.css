@@ -4,6 +4,8 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+
+
 body {
     overflow-x: hidden;
 }
@@ -34,7 +36,7 @@ h6 {
     text-transform: uppercase;
     font-family: "Exo";
     font-weight: 900;
-    background-color: rgba(0, 0, 0, 0.6)
+    /*background-color: rgba(0, 0, 0, 0.6)*/
 }
 
 
@@ -209,6 +211,14 @@ section.success a.active {
     section.first {
         padding-top: 75px;
     }
+}
+
+#portfolio{
+    background-color: white
+}
+
+#about{
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 #portfolio .portfolio-item {
