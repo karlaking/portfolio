@@ -5,24 +5,37 @@
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
-    <link rel="icon" href="http://i.imgur.com/nCUval6.png">
+    <link rel="icon" href="https://d28zjewj6xjjqr.cloudfront.net/assets/favicons/winter/favicon-196x196-d2ae41dfbc43ab179160e51b5cb40e0d.png">
 
     <meta name="description" content="software engineer mapping gis mapbox ruby on rails san francisco">
     <meta name="author" content="Karla King">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Monda' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Exo' rel='stylesheet' type='text/css'>
 
     <style>
       body { margin:0; padding:0; }
-      #map { position:absolute; top:0; bottom:0; width:100%; }
-      .img-profile{width: 100%;
-        padding-top: 40px
+
+      .img-profile{
+        padding-top: 110px;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: -100;
+        -ms-transform: translateX(-50%) translateY(-50%);
+        -moz-transform: translateX(-50%) translateY(-50%);
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
       }
-      .name{
-        font-size: 20px
-      }
+
       .section-label{
-        padding-top: 80px
+        padding-top: 80px;
+        color: white;
       }
     </style>
 </head>
