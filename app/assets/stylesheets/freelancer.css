@@ -77,7 +77,7 @@ header .intro-text .name {
     font-family: "Exo";
     font-size: 80px;
     font-weight: 800;
-    padding-top: 30%;
+    padding-top: 25%;
     color: white;
 }
 
@@ -244,6 +244,12 @@ section.success a.active {
 
 #portfolio * {
     z-index: 2;
+}
+
+.description{
+    max-width: 313px;
+    text-align: center;
+    padding-top: 10px
 }
 
 @media(min-width:767px) {
