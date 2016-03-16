@@ -216,7 +216,7 @@ section.success a.active {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: #F5D04C;
+    background: #18bc9c;
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -250,10 +250,15 @@ section.success a.active {
     z-index: 2;
 }
 
+.caption-text{
+    font-size: 30px;
+    font-family: "Exo"
+}
 .description{
     max-width: 313px;
     text-align: center;
-    padding-top: 10px
+    padding-top: 10px;
+    font-size: 20px
 }
 
 @media(min-width:767px) {
