@@ -32,8 +32,8 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    font-family: "Exo";
+    font-weight: 900;
 }
 
 
@@ -61,10 +61,10 @@ hr.star-light {
     border-color: #fff;
 }
 
-/*hr.star-light:after {
+hr.star-light:after {
     color: #fff;
-    background-color: #18bc9c;
-}*/
+    background-color: #black;
+}
 
 hr.star-primary {
     border-color: #F5D04C;
@@ -99,9 +99,9 @@ header img {
 header .intro-text .name {
     display: block;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 2em;
-    font-weight: 700;
+    font-family: "Exo";
+    font-size: 1em;
+    font-weight: 800;
     color: black;
 }
 
