@@ -97,11 +97,11 @@ header img {
 
 
 header .intro-text .name {
-    display: block;
+    /*display: block;*/
     text-transform: uppercase;
     font-family: "Exo";
-    font-size: 1em;
-    font-weight: 800;
+    /*font-size: 700px;*/
+    /*font-weight: 800;*/
     color: black;
 }
 
